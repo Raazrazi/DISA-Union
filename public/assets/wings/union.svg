@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#134e4a"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#2dd4bf" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0f766e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg)"/>
+  <circle cx="100" cy="100" r="100" fill="url(#glow)"/>
+  <!-- Shield shape -->
+  <path d="M100 35 L155 60 L155 100 Q155 145 100 170 Q45 145 45 100 L45 60 Z" fill="white" opacity="0.15" stroke="white" stroke-width="2" stroke-opacity="0.4"/>
+  <!-- Star in shield -->
+  <polygon points="100,60 108,85 135,85 113,101 121,126 100,110 79,126 87,101 65,85 92,85" fill="#fbbf24"/>
+  <!-- Bottom banner -->
+  <rect x="58" y="148" width="84" height="16" rx="4" fill="white" opacity="0.2"/>
+</svg>
